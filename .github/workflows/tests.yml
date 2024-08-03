@@ -6,6 +6,6 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Install modules
-        run: npm ci
+        run: pnpm ci
       - name: Run tests
         run: npm run test
